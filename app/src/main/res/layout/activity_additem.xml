@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
     tools:context=".Views.Additem">
     <ImageView
         android:layout_width="200dp"
@@ -13,9 +14,10 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select Image"
+        android:text="Choose Image"
         android:id="@+id/btn_selectimg"
         android:layout_below="@+id/iv_item"
+        android:background="@color/colorPrimary"
         android:layout_margin="10dp"/>
     <Button
         android:layout_width="match_parent"
@@ -23,6 +25,7 @@
         android:text="Upload Image"
         android:id="@+id/btn_upimg"
         android:layout_below="@+id/btn_selectimg"
+        android:background="@color/colorPrimary"
         android:layout_margin="10dp"/>
     <EditText
         android:layout_width="match_parent"
@@ -30,19 +33,23 @@
         android:hint="Enter Item name"
         android:id="@+id/et_itemname"
         android:layout_below="@id/btn_upimg"
+        android:textAlignment="center"
         android:layout_margin="10dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Item Price"
         android:id="@+id/et_itemprice"
+        android:textAlignment="center"
         android:layout_below="@+id/et_itemname"
+        android:background="@color/cardview_light_background"
         android:layout_margin="10dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Item Image name"
         android:id="@+id/tv_itemimgname"
+        android:textAlignment="center"
         android:layout_below="@+id/et_itemprice"
         android:layout_margin="10dp"/>
     <EditText
@@ -50,6 +57,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter Item Description"
         android:id="@+id/et_itemdesc"
+        android:textAlignment="center"
         android:layout_below="@+id/tv_itemimgname"
         android:layout_margin="10dp"/>
     <Button
@@ -58,6 +66,7 @@
         android:text="Insert Item"
         android:id="@+id/btn_uploaditem"
         android:layout_below="@+id/et_itemdesc"
+        android:background="@color/colorPrimary"
         android:layout_margin="10dp"/>
 
 </RelativeLayout>

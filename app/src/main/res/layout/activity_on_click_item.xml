@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
     tools:context=".OnClickItem">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tvheading"
-        android:text="Your item details"
-        android:textSize="30dp"
+        android:text="Item details"
+        android:textSize="40dp"
         android:gravity="center"/>
     <ImageView
         android:layout_width="300dp"
@@ -30,7 +31,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:text="Item Name is :"
             android:layout_weight="3"
             />
@@ -38,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/itmname"
-        android:textSize="15dp"
+        android:textSize="20dp"
             android:layout_weight="4"
         />
     </LinearLayout>
@@ -53,7 +54,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:text="Item Price is :"
             android:layout_weight="3"
             />
@@ -61,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/itmprice"
-            android:textSize="15dp"
+            android:textSize="25dp"
             android:layout_weight="4"
             />
     </LinearLayout>
@@ -75,7 +76,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:text="Item Description:"
             android:layout_weight="3"
             />
